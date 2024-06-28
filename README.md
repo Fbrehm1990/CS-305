@@ -1,1 +1,23 @@
 # CS-305
+
+1. Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+
+   Artemis Financial helps develop financial plans for its clients. This includes savings, retirement, investment, and insurance plans. Artemis Financial would like to continue using the its current web based application but would like to mordernize it. The companys mottos is "Security is Everyones Responsibility." The software engineers code of ethics primarily ensures the safety of the public interest. This falls right in line with the companies motto of "security being everyones responsibility." It can be assumed that the company will be responsible for domestic and non-domestic accounts. The company also deals with investments directly which means they would have to be very careful to ensure the safety of trade secrets. They are also working with client information that is extremely sensitive like credit and debit card numbers, account and routing numbers, social security, addresses, phone number, etc. HDealing with such senstitive information means that Artemis Finanacial will need to utilize API's, user input validation, continuous integration, and DevSecOps to name a few, in order to keep the upmost secure information private for all of its clients.
+
+
+2. What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
+
+   When I found my clients software security vulnerablities I was able to check them with the NSR database and see if their were any false positives first and foremost. If there were no false positives I was able to research the vulnerabilies in order to figure out what needed to be fixed. For a large majority of the vulnerabilities it was a simple case of needed to update to the current version of the vulnerability. Secure code is perhaps the most important aspect of software development. There are so many ways for an intruder to attack and retrieve software, potentially jeopardizing the interest of the public we must be diligent in our best when creating the most secure code possible. If I were to create a program that worked flawlessly but was attacked many times, it would look bad on the company and myself as I would have jeopardized the safety of the public interest. Software security adds trust between the development team, the company, and the users. When security is breached or an attack leaks thousands or millions of users information the company can suffer to an extent that loses trust in the public and puts them out of business. Resources will have to be routed to correcting mistakes, legal fees, the development team, testing, and ensuring that if the compant recovers that it mitigates that risk ever happening again.
+
+   
+3. Which part of the vulnerability assessment was challenging or helpful to you?
+
+   The hardest part of the vulnerability assesment was providing the verification of a working checksum. I struggled with this portion of the assesment as I was not able to figure out how to properly execute the RESTful api brower to verify that the checksum was working. I spent days utilizing resources such as SNHU library, youtube, stackoverflow, class resources, and nothing helped to where I was able to complete the verification process. It turned out that once I reached out for help I was running the program as a Maven instead of a JAVA application. However, even after running the application under JAVA my checksum failed to work. There were springboot framework errors that I was coming across that no matter how much I researched, I was unable to figure out a solution to my issue. On the other hand, the class module resources and my professor helped me in developing my skills thus far. Before starting this class I had very little knowledge when it came to secure software development and now I feel as though I have a much better grasp on the subject and how to go forth looking and working with it.
+
+
+4. How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+
+   
+8. How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+9. What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+10. Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
